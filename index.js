@@ -5,7 +5,7 @@ dotenv.config();
 
 const io = new Server({
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://talkhub.netlify.app/",
   },
 });
 
